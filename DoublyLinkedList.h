@@ -56,7 +56,7 @@ public:
         for (NodeDL *ptr = head; ptr != nullptr; ptr = ptr->next) {
             cout<<ptr->val;
             if(ptr->next!=nullptr)
-                cout<<"->";
+                cout<<"-><-";
             else cout<<"\n";
         }
     }
