@@ -2,14 +2,14 @@
 // Created by Anusha Vijay on 9/24/17.
 //
 #include "NodeDLinked.h"
-#include "IDoublyLinkedLists.h"
+#include "ILinkedLists.h"
 #include <iostream>
 using namespace std;
 
 #ifndef COLLECTIONS_DOUBLYLINKEDLIST_H
 #define COLLECTIONS_DOUBLYLINKEDLIST_H
 
-class DoublyLinkedList : public IDoublyLinkedLists {
+class DoublyLinkedList : public ILinkedLists {
     NodeDL *head;
     NodeDL *tail;
 public:

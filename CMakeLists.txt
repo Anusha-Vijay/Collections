@@ -3,5 +3,5 @@ project(Collections)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Node.h LinkedLists.h NodeDLinked.h DoublyLinkedList.h ILinkedLists.h IDoublyLinkedLists.h)
+set(SOURCE_FILES main.cpp Node.h LinkedLists.h NodeDLinked.h DoublyLinkedList.h ILinkedLists.h)
 add_executable(Collections ${SOURCE_FILES})
