@@ -40,6 +40,12 @@ public:
         return count;
     }
 
+    bool isEmpty() {
+        bool isEmpty = false;
+        isEmpty = size();
+        return !isEmpty;
+    }
+
 
     void print() {
         for (Node *ptr = head; ptr != nullptr; ptr = ptr->next) {

@@ -40,6 +40,12 @@ public:
         return count;
     }
 
+    bool isEmpty() {
+        bool isEmpty = false;
+        isEmpty = size();
+        return !isEmpty;
+    }
+
     void reverse(){
         cout<<"\nInplace Reversing:\n";
         int count=size();
